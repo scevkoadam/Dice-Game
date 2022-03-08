@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  padding: 0px;
+  width: 700px;
+  height: 500px;
+  border: 1px solid #ccc;
+  margin: 50px auto;
+  position: relative;
+  border-radius: 5px;
+  font-family: 'Arial', sens-serif;
+  font-weight: bold;
+  position: relative;
+}
+#playView {
+  display: none;
+  _display: block;
+}
+#startView{
+  display: block;
+  _display: none;
+}
+#startBtn {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 215px;
+  left: 50%;
+  width: 200px;
+  height: 70px;
+  font-size: 22px;
+  background-color: #0095ff;
+  color: white;
+  border-radius: 5px;
+}
+#startBtn:hover {
+  background-color: #00d0ff;
+}
+.ukuprez{
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.playGround{
+  width: 100%;
+}
+.col-1-2{
+  float: left;
+  width: 50%;
+  height: 430px;
+  position: relative;
+}
+.prva {
+  border-right: 1px solid #ccc;
+}
+h1, h2 {
+  position: absolute;
+}
+h2 {
+  transform: translateX(-50%);
+  left: 175px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+h1 {
+  font-size: 140px;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 24%;
+}
+.runda{
+  position: absolute;
+  padding: 10px;
+  background-color: darkorange;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -25px;
+}
+h5 {
+ font-size: 26px;
+ text-align: center;
+}
+.btn-info {
+  position: absolute;
+  top: 80%;
+  transform: translateX(100px);
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#pponovoBtn{
+  font-weight: bold;
+  width: 100%;
+  display: none;
+}
+
+/* Helper styles */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
